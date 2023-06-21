@@ -36,14 +36,16 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #2e2f42;
+  list-style: none;
 }
 
 .list-nav .link:hover,
 .list-nav .link:focus {
   color: #404bbf;
 }
+
 /*menu contakt*/
-.list-address {
+.list-address a {
   list-style: none;
 }
 .list-address a {
@@ -59,13 +61,14 @@ body {
 .link-hero {
   background-color: #2e2f42;
 }
-h1 {
+.link-hero .link {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.11;
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 button {
@@ -107,8 +110,7 @@ h2 {
 .list-tem {
   background: #f4f4fd;
 }
-.list-tem {
-}
+
 .list-tem h3 {
   font-weight: 500;
   font-size: 20px;
