@@ -168,3 +168,18 @@ p {
 .link-footer {
   background-color: #2e2f42;
 }
+.link-footer .link-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link-footer .link-log {
+  text-decoration: none;
+}
+.link-footer .studio-dark {
+  color: #f4f4fd;
+}
