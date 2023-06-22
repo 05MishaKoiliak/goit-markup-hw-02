@@ -8,6 +8,7 @@ body {
 :root {
 }
 /* menu nav*/
+
 .list-nav {
   list-style: none;
 }
@@ -19,7 +20,6 @@ body {
   color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 .studio-dark {
   font-family: "Raleway", sans-serif;
@@ -29,7 +29,6 @@ body {
   color: #2e2f42;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 .list-nav a {
   font-weight: 500;
@@ -64,7 +63,7 @@ body {
 .link-hero .link {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.11;
+  line-height: 1.07;
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.02em;
@@ -164,4 +163,8 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #434455;
+}
+/*footer*/
+.link-footer {
+  background-color: #2e2f42;
 }
