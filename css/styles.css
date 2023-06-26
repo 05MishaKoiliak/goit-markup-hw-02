@@ -125,13 +125,13 @@ body {
   color: #2e2f42;
 }
 /*sections4*/
-.section-tims {
-  background-color: #f4f4fd;
-}
-.section-tims .ten-staff {
+
+.ten-staff {
   background-color: #ffffff;
 }
-
+.tim-section {
+  background-color: #f4f4fd;
+}
 .list .title {
   font-weight: 500;
   font-size: 20px;
@@ -152,8 +152,8 @@ body {
 }
 .footer .text {
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
 /*portfolio*/
 .button-portfolio {
