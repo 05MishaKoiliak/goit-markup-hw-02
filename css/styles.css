@@ -93,8 +93,8 @@ body {
   cursor: pointer;
   color: #ffffff;
 }
-.button-hero .list:focus,
-.button-hero .link:hover {
+.button-hero:focus,
+.button-hero:hover {
   background-color: #404bbf;
 }
 /*section2*/
@@ -157,6 +157,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 .button-portfolio {
   background-color: #f4f4fd;
@@ -168,4 +170,15 @@ body {
 .button-portfolio:focus,
 .button-portfolio:hover {
   background-color: #404bbf;
+}
+/*portfolio img*/
+.foto .link {
+  text-decoration: none;
+}
+.portfolio-title {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
