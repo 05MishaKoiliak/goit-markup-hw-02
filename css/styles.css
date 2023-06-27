@@ -146,6 +146,8 @@ body {
 .list .text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-size: 16px;
+  color: #434455;
 }
 /*footer*/
 .footer {
@@ -192,11 +194,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.list .text {
-  color: #2e2f42;
+.portfolio-text {
+  color: #434455;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /*footer*/
