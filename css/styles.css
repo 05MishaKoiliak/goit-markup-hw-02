@@ -31,11 +31,12 @@ body {
 .link-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
+  text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+
   color: #4d5ae5;
 }
 .studio-dark {
@@ -71,6 +72,10 @@ body {
 .header-item .list:focus,
 .header-item .list:hover {
   color: #404bbf;
+}
+.address {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /*section 1*/
 .section-hero {
@@ -129,7 +134,7 @@ body {
 .ten-staff {
   background-color: #ffffff;
 }
-.tim-section {
+.tem-section {
   background-color: #f4f4fd;
 }
 .list .title {
